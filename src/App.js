@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import SideBarComponent from './sidebar';
+
+// import { SideBarComponent } from "./sidebar.js";
 
 function App() {
   return (
-    <p className="text-center text-blue-400 font-bold">
-      Hello Tailwind!
-    </p>
+    <div className = "flex">
+      <SideBarComponent />
+    </div>
   );
 }
 
